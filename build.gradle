@@ -1,0 +1,15 @@
+group 'dgraph-example'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.dgraph:dgraph4j:1.0.0'
+    compileOnly 'org.projectlombok:lombok:+'
+}
